@@ -1,0 +1,118 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font: size 7px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    color: #fff;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #333;
+} 
+a{
+    text-decoration: none;   
+}
+p{
+    padding: 1.6rem 0;
+}
+header{
+    height: 46rem;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+header .bg-image{
+    position: fixed;
+    background-image: url(image/3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+header h1{
+    padding: 12rem;
+    padding-bottom: 0;
+}
+.btn{
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    border: 1px;
+    padding: 1.6rem 3.2rem;
+    margin: .5rem 0;
+    transition: all 0.4s;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #333;
+
+}
+#section-a{
+    background-color: #eaeaea;
+    color: #333;
+    padding: 3.2rem 0;
+
+}
+#section-b{
+    padding: 2rem;
+
+}
+#section-b{
+    list-style: none;
+}
+#section-b li{
+    background: #fff;
+    color: #333;
+    margin-bottom: 1.5rem;
+
+}
+.col-content{
+    padding: 1.5rem;
+}
+#section-c{
+    background-color: #eaeaea;
+    color: #333;
+    padding: 5rem;
+}
+#section-d .box{
+    padding: 5rem;
+}
+#section-d .box{
+    
+}
+footer{
+    padding: 4rem;
+    background: black;
+}
+footer a{
+    color: yellowgreen;
+}
+@media screen and ( max-width:800px ) {
+    html{
+        font-size: 9px;
+    }
+}
+@media screen and (max-width:1200px) {
+    html{
+        font-size: 11px;
+    }
+    #section-b li {
+        width: 46%;
+        margin: 1%;
+        display: inline-block;
+    }
+}
+.box{
+    width: 50%;
+    float:left
+}
